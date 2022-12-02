@@ -22,6 +22,7 @@ pub fn day_one() {
             groupCount += line.parse::<i32>().unwrap();
         }  
     }
+    println!("Day One Answer:"); 
     println!("{}", currentHigh);
     println!(""); 
     day_one_part_two()

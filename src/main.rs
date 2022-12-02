@@ -1,8 +1,8 @@
 mod day_one;
+mod day_two;
 
 fn main() {
-    println!("Day One Answer:"); 
     day_one::day_one();
-    println!(""); 
+    day_two::day_two();
 
 }
